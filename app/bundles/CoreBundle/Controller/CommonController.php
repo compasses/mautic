@@ -747,8 +747,8 @@ class CommonController extends Controller implements MauticController
         ];
 
         $session->set('mautic.browser.notifications', $browserNotifications);
-        var_dump($browserNotifications);
-        die();
+//        var_dump($browserNotifications);
+//        die();
 
         if (!defined('MAUTIC_INSTALLER') && $addNotification) {
             switch ($type) {
